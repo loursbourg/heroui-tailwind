@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* inter-latin-400-normal */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(@fontsource/inter/files/inter-latin-400-normal.woff2) format('woff2'), url(@fontsource/inter/files/inter-latin-400-normal.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/open-sans/files/open-sans-latin-400-normal.woff2') format('woff2'),
+       url('@fontsource/open-sans/files/open-sans-latin-400-normal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('@fontsource/tinos/files/tinos-latin-400-normal.woff2') format('woff2'),
+       url('@fontsource/tinos/files/tinos-latin-400-normal.woff') format('woff');
+}
+
+
+.test-app-card {
+  background: #ffffff;
+  box-shadow: -4px -4px 8px 2px rgba(130, 130, 130, 0.1),
+    4px 4px 8px 2px rgba(130, 130, 130, 0.1);
+}
